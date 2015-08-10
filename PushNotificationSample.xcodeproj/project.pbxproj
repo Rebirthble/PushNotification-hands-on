@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBD603C1B784DBA007180C4 /* img_mb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD603B1B784DBA007180C4 /* img_mb.png */; };
 		AE2834181B745AF8000BE662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2834171B745AF8000BE662 /* main.m */; };
 		AE28341B1B745AF8000BE662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28341A1B745AF8000BE662 /* AppDelegate.m */; };
 		AE28341E1B745AF8000BE662 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28341D1B745AF8000BE662 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DBD603B1B784DBA007180C4 /* img_mb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mb.png; sourceTree = "<group>"; };
 		64D9AFED582B92CC7DC4C47C /* Pods-PushNotificationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationSample/Pods-PushNotificationSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BCFCB6C45AAFD029CBD850 /* libPods-PushNotificationSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushNotificationSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2834121B745AF8000BE662 /* PushNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DBD603A1B784D7C007180C4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5DBD603B1B784DBA007180C4 /* img_mb.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		5FC307DCE26EAE894D6058BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		AE2834141B745AF8000BE662 /* PushNotificationSample */ = {
 			isa = PBXGroup;
 			children = (
+				5DBD603A1B784D7C007180C4 /* image */,
 				AE2834191B745AF8000BE662 /* AppDelegate.h */,
 				AE28341A1B745AF8000BE662 /* AppDelegate.m */,
 				AE28341C1B745AF8000BE662 /* ViewController.h */,
@@ -230,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBD603C1B784DBA007180C4 /* img_mb.png in Resources */,
 				AE2834211B745AF8000BE662 /* Main.storyboard in Resources */,
 				AE2834261B745AF8000BE662 /* LaunchScreen.xib in Resources */,
 				AE2834231B745AF8000BE662 /* Images.xcassets in Resources */,
